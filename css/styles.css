@@ -1978,31 +1978,31 @@ ul.tab {
         border-radius: 12px;
         background: white;
         position: absolute;
-        -webkit-transform: rotate(-50deg);
-        transform: rotate(-50deg);
+        -webkit-transform: rotate(50deg);
+        transform: rotate(50deg);
         top: -2px; }
       .slider-services .slider-content .slick-prev::after,
       .slider-services .slider-content .slick-next::after {
-        -webkit-transform: rotate(50deg);
-        transform: rotate(50deg);
+        -webkit-transform: rotate(-50deg);
+        transform: rotate(-50deg);
         top: 12px; }
       .slider-services .slider-content .slick-prev:hover::before, .slider-services .slider-content .slick-prev:hover::after,
       .slider-services .slider-content .slick-next:hover::before,
       .slider-services .slider-content .slick-next:hover::after {
         background: #7a367d; }
     .slider-services .slider-content .slick-prev {
-      right: 20px; }
+      left: 20px; }
       .slider-services .slider-content .slick-prev::before, .slider-services .slider-content .slick-prev::after {
         content: '';
-        -webkit-transform: rotate(50deg);
-        transform: rotate(50deg);
-        top: -2px; }
-      .slider-services .slider-content .slick-prev::after {
         -webkit-transform: rotate(-50deg);
         transform: rotate(-50deg);
+        top: -2px; }
+      .slider-services .slider-content .slick-prev::after {
+        -webkit-transform: rotate(50deg);
+        transform: rotate(50deg);
         top: 12px; }
     .slider-services .slider-content .slick-next {
-      left: -2px; }
+      right: -2px; }
 
 .wrapper-slider .item-slider {
   background: white;
